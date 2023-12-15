@@ -1,16 +1,34 @@
 <!DOCTYPE html>
 <html>
 	<head>
+		<title> Jumprope Calculator </title>
 		<link rel="stylesheet" href="style.css">
 		<script defer src="script.js"> </script>
 	</head>
 	<body>
-		<h1> Vincent's Jumprope Calculator </h1>
-		<div class="field" id="1">
-			<input type="text" class="inputBox">
-			<button class="addNew"> Add New </button>
+		<div class="main">
+			<h1> Vincent's Jumprope Calculator </h1>
+			<div class="field" id="1">
+				<input type="text" class="inputBox">
+				<button class="addNew clickable"> Add New </button>
+			</div>
+			<button class="calculate clickable"> Calculate Grade </button>
+			<h1 class="grade"> Press "Calculate Grade" to calculate </h1>
+			<h3> How to use: </h3>
+			<ol>
+				<li> Open your jumprope grades </li>
+				<li> Choose a PI to calculate </li>
+				<li> Enter the assignment grades (top is oldest assignment, bottom is newest </li>
+				<li> Press "Add New" to add a new assignment or Calculate Grade to estimate your grade</li>
+			</ol>
+			<h3> Notes: </h3>
+			<ul> 
+				<li> If a field is invalid (blank, containing text, or above 4, it will be ignored in the calculation. </li>
+				<li> Refreshing the page will clear all progress </li>
+				<li> Pressing "Add new" will automatically calculate the score with what you put in so far </li>
+				<li> Source code can be found on <a href="https://github.com/vfdizon/vfdizon.github.io" target="_blank"> Github </a></li>
+				<li> I'm not a graphic designer so the style is meh, if you wanna do it contact me </li>
+			</ul>
 		</div>
-		<button class="calculate"> Calculate Grade </button>
-		<h1 class="grade"> Press "Calculate Grade" to calculate </h1>
 	</body>
 </html>

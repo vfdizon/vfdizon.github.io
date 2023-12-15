@@ -4,3 +4,36 @@ body {
 	color: #003049;
 	font-family: 'Helvetica', 'Arial', sans-serif;
 }
+
+.main {
+	background: #253D5B;
+	border: #8CA0D7 solid 5px;
+	color: white;
+	width: 50%;
+	margin: auto;
+	margin-top: 10%;
+	text-align: center;
+	padding: 2%;
+}
+
+button, input {
+	width: 25%;
+	margin-top: 2%;
+	margin: auto;
+	text-align: center;
+}
+
+.clickable {
+	text-align: center;
+	background: #F0EAD6;
+	font-family: 'Helvetica' 'Arial' sans-serif;
+	color: white:
+}
+
+ol, ul {
+	text-align: left;
+}
+
+a {
+	color: white;
+}
